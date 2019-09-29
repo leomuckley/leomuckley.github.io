@@ -1,3 +1,4 @@
-name: Hank Quinlan, Horrible Cop
+name: Leo Muckley
 markdown: kramdown
+theme: slate
 permalink: /blog/:year/:month/:day/:title
