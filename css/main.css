@@ -53,5 +53,6 @@ ul.posts li {
   color: white;
   font-size: 20px;
   position: static;
+  width: 500px;
   top: 0;
 }
