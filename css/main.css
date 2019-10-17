@@ -46,9 +46,9 @@ ul.posts li {
 }
 
 .header {
-  padding: 60px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   background: #1abc9c;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
