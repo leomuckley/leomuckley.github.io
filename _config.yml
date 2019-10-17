@@ -1,4 +1,4 @@
 name: Leo Muckley
 markdown: kramdown
-theme: jekyll-theme-merlot
+theme: jekyll-theme-slate
 permalink: /blog/:year/:month/:day/:title
