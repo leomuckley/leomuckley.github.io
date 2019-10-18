@@ -60,6 +60,7 @@ ul.posts li {
 
 .stamp {
 	color: #555;
+	font-size: 2em;
 	font-weight: bolder;
 	font-family:'Helvetica', 'Arial Rounded MT Bold', 'Sans-Serif';
 	display: inline-block;
