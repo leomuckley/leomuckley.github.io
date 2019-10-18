@@ -51,9 +51,11 @@ ul.posts li {
   text-align: left;
   background: #999;
   color: #000000;
-  font-family:'Helvetica', 'Arial Black', 'Sans-Serif';
+  font-family:'Helvetica', 'Arial Black', 'Sans-Serif', 'Courier';
   font-size: 20px;
+  mix-blend-mode: multiply;
   position: static;
   width: 100%;
   top: 0;
+    
 }
