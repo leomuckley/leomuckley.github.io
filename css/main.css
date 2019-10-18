@@ -24,7 +24,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #000000;
+    color: #555;
 }
 p {
     font-size: 1.5em;
@@ -98,12 +98,6 @@ button {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
 }
 
 button:hover, a:hover {
