@@ -80,6 +80,7 @@ ul.posts li {
   max-width: 300px;
   margin: auto;
   text-align: center;
+  float: right;
 }
 
 .title {
