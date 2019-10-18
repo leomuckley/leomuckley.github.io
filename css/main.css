@@ -59,15 +59,13 @@ ul.posts li {
 }
 
 .stamp {
-    color: #555;
-	font-size: 3rem;
+	color: #555;
 	font-weight: 700;
 	display: inline-block;
 	padding: 0.25rem 1rem;
-	text-transform: uppercase;
-	font-family: 'Courier';
+	text-transform: lowercase;
 	-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
-    -webkit-mask-size: 944px 604px;
-    mix-blend-mode: multiply;
+	-webkit-mask-size: 944px 604px;
+	mix-blend-mode: multiply;
 }
     
