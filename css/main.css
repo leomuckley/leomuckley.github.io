@@ -51,11 +51,23 @@ ul.posts li {
   text-align: left;
   background: #999;
   color: #000000;
-  font-family:'Helvetica', 'Arial Black', 'Sans-Serif', 'Courier';
+  font-family:'Helvetica', 'Arial Black', 'Sans-Serif';
   font-size: 20px;
-  mix-blend-mode: multiply;
   position: static;
   width: 100%;
   top: 0;
-    
 }
+
+.stamp {
+    color: #555;
+	font-size: 3rem;
+	font-weight: 700;
+	display: inline-block;
+	padding: 0.25rem 1rem;
+	text-transform: uppercase;
+	font-family: 'Courier';
+	-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+}
+    
