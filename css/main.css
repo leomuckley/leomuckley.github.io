@@ -2,7 +2,6 @@ body {
     margin: 60px auto;
     width: 70%;
     color: #000000;
-    background: url('https://live.staticflickr.com/65535/48917458353_a2033c9178_w.jpg');
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -58,19 +57,7 @@ ul.posts li {
   top: 0;
 }
 
-.stamp {
-	color: #555;
-	font-size: 2em;
-	font-weight: bolder;
-	font-family:'Arial Black', 'Sans-Serif';
-	display: inline-block;
-	padding: 0.25rem 1rem;
-	text-transform: lowercase;
-	-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
-	-webkit-mask-size: 944px 604px;
-	mix-blend-mode: multiply;
-}
-    
+
 .container { 
 	border-top: 1px solid #d5d5d5;
 }
