@@ -1,5 +1,6 @@
 .header img {
   float: left;
+  top: 18px;
   width: 150px;
   height: 150px;
   #background: #555;
