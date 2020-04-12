@@ -5,7 +5,7 @@
   background: #555;
 }
 
-.header h1 {
+.header h1, p {
   position: relative;
   top: 18px;
   left: 10px;
