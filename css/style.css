@@ -9,9 +9,11 @@
 
 .header h1, {
   #position: relative;
-  float: left;
-  top: 18px;
-  left: 10px;
+  #float: left;
+  #top: 18px;
+  #left: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .header p, {
