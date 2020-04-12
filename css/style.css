@@ -2,7 +2,7 @@
   float: left;
   width: 100px;
   height: 100px;
-  background: #555;
+  #background: #555;
 }
 
 .header h1, p {
