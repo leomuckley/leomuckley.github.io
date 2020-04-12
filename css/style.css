@@ -10,7 +10,7 @@
 .header h1, {
   position: relative;
   #float: left;
-  top: 18px;
+  top: 88px;
   left: 10px;
   #display: inline-block;
   #vertical-align: top;
@@ -18,7 +18,7 @@
 
 .header p, {
   position: relative;
-  top: 30x;
+  top: 50x;
   left: 10px;
 }
 
