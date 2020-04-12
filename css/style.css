@@ -1,6 +1,6 @@
 .header img {
-  #float: left;
-  position: relative;
+  float: left;
+  #position: relative;
   top: 1px;
   width: 150px;
   height: 150px;
@@ -8,12 +8,12 @@
 }
 
 .header h1, {
-  #position: relative;
+  position: relative;
   #float: left;
-  #top: 18px;
-  #left: 10px;
-  display: inline-block;
-  vertical-align: top;
+  top: 18px;
+  left: 10px;
+  #display: inline-block;
+  #vertical-align: top;
 }
 
 .header p, {
