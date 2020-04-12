@@ -1,8 +1,9 @@
 .header img {
-  float: left;
+  #float: left;
+  position: relative;
   top: 1px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   #background: #555;
 }
 
