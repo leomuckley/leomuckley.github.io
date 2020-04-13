@@ -324,7 +324,7 @@ $ ->
   # inefficient, but its good to know about).
   # https://github.com/mbostock/queue
   queue()
-    .defer(d3.tsv, "data/out_new.tsv")
+    .defer(d3.tsv, "data/out_new_new.tsv")
     .await(display)
 
   d3.select("#button-wrap").selectAll("div").on "click", () ->
