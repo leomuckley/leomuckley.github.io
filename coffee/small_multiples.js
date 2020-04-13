@@ -185,7 +185,7 @@
       plotData("#vis", data, plot);
       return setupIsoytpe();
     };
-    queue().defer(d3.tsv, "data/out_new.tsv").await(display);
+    queue().defer(d3.tsv, "data/out_new_new.tsv").await(display);
     return d3.select("#button-wrap").selectAll("div").on("click", function() {
       var id;
       id = d3.select(this).attr("id");
