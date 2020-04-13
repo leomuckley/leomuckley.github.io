@@ -8,8 +8,8 @@
 SmallMultiples = () ->
   # variables accessible to
   # the rest of the functions inside SmallMultiples
-  width = 150
-  height = 120
+  width = 250
+  height = 200
   margin = {top: 15, right: 10, bottom: 40, left: 35}
   data = []
 
