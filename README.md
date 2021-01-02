@@ -1,6 +1,6 @@
 ## Developer Portfolio Landing Page Template
 
-URL: "https://leomuckley.github.io/:https://leomuckley.github.io/"
+URL: "https://leomuckley.github.io/":https://leomuckley.github.io/
 
 ### Introduction
 
