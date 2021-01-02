@@ -2,6 +2,8 @@ h1. Linked Small Multiples
 
 FlowingData interactive linked small multiples.
 
+"https://leomuckley.github.io/":https://leomuckley.github.io/
+
 h2. Usage
 
 You can start up a local webserver by using python's simple server:
