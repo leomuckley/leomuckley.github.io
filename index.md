@@ -1,7 +1,9 @@
-## Resume
+### Resume
 
-Download my resume here
+- [View my resume](/pdf/resume.pdf)
+
 ---
+
 
 ### Projects 
 
