@@ -1,10 +1,11 @@
-## Portfolio
+## Resume
 
+Download my resume here
 ---
 
-### Category Name 1 
+### Projects 
 
-[Project 1 Title](/sample_page)
+[Multi-Input ConvLSTM](/msc)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
