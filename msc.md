@@ -2,7 +2,7 @@
 
 **Overview:** 
 Developed a novel deep learning technique to predict levels of flood extent in East Africa, namely a Multi-Input ConvLSTM. The results of this project demonstarted the effectiveness of this specifc technique to model the spatio-temporal nature of the flood conditioning factors.
-<br>
+<br><br>
 This project was initally my MSc disseratation (here) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 (paper,presetation, slides). 
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
@@ -25,7 +25,7 @@ if (isAwesome){
 
 ### 3. Support the selection of appropriate statistical tools and techniques
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/model.gif?raw=true"/>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
