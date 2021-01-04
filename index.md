@@ -6,7 +6,7 @@ Download my resume here
 ### Projects 
 
 [Multi-Input ConvLSTM](/msc)
-<img src="images/model.jpg?raw=true"/>
+<img src="images/model1.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
