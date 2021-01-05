@@ -8,6 +8,8 @@
 ### Projects 
 
 [Multi-Input ConvLSTM](/msc)
+<br>
+MSc thesis; Published at ICPR 2020
 <img src="images/model1.png?raw=true"/>
 
 ---
