@@ -5,15 +5,13 @@ Developed a novel deep learning technique to predict levels of flood extent in E
 <br><br>
 This project was initally my MSc disseratation (here) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 (paper,presetation, slides). 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Flood Extent Prediction
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+The prediction of flood extent and location is a task of trying to predict the level of inundation $y$, where $0 \le y \le 1$, at time $t$ based on $M$ features for the previous $k$ points in time. In this problem, the level of inundation is the fraction (i.e. value in of a 1km sq polygon that is covered in flood water at time $t$ and each feature $m$, is a sequence of $k$ timesteps (e.g. daily total precipitation). It is these $M$ sequences that are to be utilised to predict flood extent. This study will focus on investigating various deep learning techniques to determine the best method of combining these sequences. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Figure 1.1 demonstrates the modelling process for this problem, where $k-1$ timesteps are considered for each sequence of features. For example, one measurement could be the total precipitation level of a location at timestep $t-k$ with the final timestep at $t-1$. This example would then predict the flo
+
+<img src="images/ICPR-2c.png?raw=true"/>
 
 ### 2. Assess assumptions on which statistical inference will be based
 
