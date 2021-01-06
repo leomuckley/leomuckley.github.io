@@ -5,7 +5,7 @@ Developed a multi-stack model with threshold optimiser to effectivly predict chi
 <br><br>
 This project was based on a Kaggle competition (here) where the goal was to uncover new insights in early childhood education and how media can support learning outcomes. This was also the fifth annual Data Science Bowl (2019), presented by Booz Allen Hamilton and Kaggle.
 
-### 1. Probelm
+### 1. The Problem
 
 In this challenge, anonymous gameplay data was used, including knowledge of videos watched and games played, 
 from the <em>PBS KIDS Measure Up!</em> app, a game-based learning tool developed as a part of the CPB-PBS Ready To Learn Initiative
