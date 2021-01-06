@@ -32,7 +32,7 @@ Classify forest types based on information about the area
 <br>
 Kaggle competition; top 4% finish
 <br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/forrest.jpg?raw=true"/> # 
 
 ---
 
