@@ -23,7 +23,7 @@ education
 <br>
 Kaggle competition; top 7% finish
 <br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/ds-bowl19.png?raw=true"/>
 
 ---
 [Learn With Other Kaggle Users](http://example.com/)
