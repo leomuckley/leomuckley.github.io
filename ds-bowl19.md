@@ -1,26 +1,36 @@
-## Multi-Input ConvLSTM for Flood Extent Prediction
+## Data Science Bowl 2019
 
 **Overview:** 
-Developed a novel deep learning technique to predict levels of flood extent in East Africa, namely a Multi-Input ConvLSTM. The results of this project demonstarted the effectiveness of this specifc technique to model the spatio-temporal nature of the flood conditioning factors.
+Developed a multi-stack model with threshold optimiser to effectivly predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood education.
 <br><br>
-This project was initally my MSc disseratation (here) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 (paper,presetation, slides). 
+This project was based on a Kaggle competition (here) where the goal was to uncover new insights in early childhood education and how media can support learning outcomes. This was also the fifth annual Data Science Bowl (2019), presented by Booz Allen Hamilton and Kaggle.
 
-### 1. Flood Extent Prediction
+### 1. Probelm
 
-The prediction of flood extent and location is a task of trying to predict the level of inundation $y$, where $0 \le y \le 1$, at time $t$ based on $M$ features for the previous $k$ points in time. In this problem, the level of inundation is the fraction (i.e. value in of a 1km sq polygon that is covered in flood water at time $t$ and each feature $m$, is a sequence of $k$ timesteps (e.g. daily total precipitation). It is these $M$ sequences that are to be utilised to predict flood extent. This study will focus on investigating various deep learning techniques to determine the best method of combining these sequences. 
+In this challenge, anonymous gameplay data was used, including knowledge of videos watched and games played, 
+from the <em>PBS KIDS Measure Up!</em> app, a game-based learning tool developed as a part of the CPB-PBS Ready To Learn Initiative
+with funding from the U.S. Department of Education. 
+Competitors were challenged to predict scores on in-game assessments and create an algorithm that will lead to better-designed 
+games and improved learning outcomes.
 
-Figure 1.1 demonstrates the modelling process for this problem, where $k-1$ timesteps are considered for each sequence of features. For example, one measurement could be the total precipitation level of a location at timestep $t-k$ with the final timestep at $t-1$. This example would then predict the flo
+The intent of the competition is was to use the gameplay data to forecast how many attempts a child will take to pass a given
+assessment (an incorrect answer is counted as an attempt). The outcomes in this competition are grouped into 4 groups 
+(labeled  `accuracy_group`  in the data):
 
-<img src="images/ICPR-2c.png?raw=true"/>
+3: the assessment was solved on the first attempt<br/>
+2: the assessment was solved on the second attempt<br/>
+1: the assessment was solved after 3 or more attempts<br/>
+0: the assessment was never solved<br/>
+
+<https://www.kaggle.com/c/data-science-bowl-2019>
 
 ### 2. Modelling
 
-Multi-Input ConvLSTMis now proposed to effectively model both the tem-poral and spatial dependencies in the data for the purpose of flood extent predic-tion1. This novel approach solves some of the issues involving modelling extremeweather events using satellite imagery, such as: the ability to model sequentialproblems  with  a  mixture  of  data  types  without  redundant  information  beingincluded  in  the  modelling;  the  ability  to  exploit  local  spatial  dependencies  inthe absence of large high-dimensional training sets. Figure 1 outlines the flow ofoperations for the Multi-Input ConvLSTM. This architecture is also divided intotwo components: (1) for modelling the temporal features, the ConvLSTM model will be utilised; (2) for modelling the constant features a feed-forward network(MLP) will be used. These two components will be combined at a subsequentlayer for before being propagated to the output layer.
-
-<img src="images/model.gif?raw=true"/>
+My solution involved using a regression approach to this task where the evaluation was based on the weighted kappa metric. 
+Conisdering the ordinal form of the target feature, a regression approach with optimised thresholds were implemented.
+<br>
+<img src="images/ds-bowl19.png?raw=true"/>
 
 ### 3. Results
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The resulting model achieved an overall result in the top 7% on the final leaderboard.
