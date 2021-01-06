@@ -9,7 +9,10 @@
 
 [Multi-Input ConvLSTM](/msc)
 <br>
+Predict flood extent utilising geographical features in East Africa
+<br>
 MSc thesis; Published at ICPR 2020
+<br>
 <img src="images/model_cropped.png?raw=true"/>
 
 ---
@@ -19,6 +22,7 @@ Predict childhood learning outcomes by utilising data from a game-based learning
 education
 <br>
 Kaggle competition; top 7% finish
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -27,6 +31,7 @@ Kaggle competition; top 7% finish
 Classify forest types based on information about the area
 <br>
 Kaggle competition; top 4% finish
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
