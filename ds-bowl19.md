@@ -26,10 +26,12 @@ assessment (an incorrect answer is counted as an attempt). The outcomes in this 
 
 ### 2. Modelling
 
-My solution involved using a regression approach to this task where the evaluation was based on the weighted kappa metric. 
+My solution involved using stacking, an ensemble learning technique, to combine multiple regression models via a meta-regressor (i.e. a linear model). Each prediction is then adjusted to the ordinal form by using a an optimiser and a thresholding technqiue. The predictions of each stack is then considered in a majority voting rule, for evaluation using the weighted kappa metric. 
 Conisdering the ordinal form of the target feature, a regression approach with optimised thresholds were implemented.
 <br>
 <img src="images/ds-bowl19.png?raw=true"/>
+In this procedure, the first-level regressors are fit to the same training set that is used prepare the inputs for the second-level regressor, which may lead to overfitting. Therefore, the concept of out-of-fold predictions: the dataset is split into k folds, and in k successive rounds, k-1 folds are used to fit the first level regressor. In each round, the first-level regressors are then applied to the remaining 1 subset that was not used for model fitting in each iteration. The resulting predictions are then stacked and provided -- as input data -- to the second-level regressor. After the training of each StackingCVRegressor, the first-level regressors are fit to the entire dataset for optimal predicitons.
+<br>
 
 ### 3. Results
 
