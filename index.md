@@ -22,7 +22,7 @@ Predict childhood learning outcomes by utilising data from a game-based learning
 education
 <br>
 Kaggle competition; top 7% finish
-<br>
+<br><br>
 <img src="images/ds-bowl19.png?raw=true"/>
 
 ---
