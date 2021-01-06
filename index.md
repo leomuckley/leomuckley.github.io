@@ -13,11 +13,20 @@ MSc thesis; Published at ICPR 2020
 <img src="images/model_cropped.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Data Science Bowl 2019](/pdf/sample_presentation.pdf)
+<br>
+Predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood
+education
+<br>
+Kaggle competition; top 7% finish
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Learn With Other Kaggle Users](http://example.com/)
+<br>
+Classify forest types based on information about the area
+<br>
+Kaggle competition; top 4% finish
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
