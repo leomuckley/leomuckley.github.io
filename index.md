@@ -26,6 +26,15 @@ Kaggle competition; top 7% finish
 <img src="images/ds-bowl19.png?raw=true"/>
 
 ---
+[Maximum Likelihood Mututal Information](/mlmi)
+<br>
+Approximating Mutual Information by Maximum Likelihood Density Ratio Estimation
+<br>
+Python implemenatation
+<br><br>
+<img src="images/mlmi_example.png?raw=true"/>
+
+---
 [Learn With Other Kaggle Users](http://example.com/)
 <br>
 Classify forest types based on information about the area
