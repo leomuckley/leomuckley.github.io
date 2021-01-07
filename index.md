@@ -16,6 +16,17 @@ MSc thesis; Published at ICPR 2020
 <img src="images/model_cropped.png?raw=true"/>
 
 ---
+
+[Cassava Leaf Disease Classification](/cassava)
+<br>
+Classify images of Cassava plants to distinguish between healthy and diseased crops
+<br>
+Kaggle Competition
+<br>
+<img src="images/cassava.png?raw=true"/>
+
+---
+
 [Data Science Bowl 2019](/ds-bowl19)
 <br>
 Predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood
