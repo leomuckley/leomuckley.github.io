@@ -1,17 +1,19 @@
 ## Multi-Input ConvLSTM for Flood Extent Prediction
 
 **Overview:** 
-Developed a novel deep learning technique to predict levels of flood extent in East Africa, namely a Multi-Input ConvLSTM. The results of this project demonstarted the effectiveness of this specifc technique to model the spatio-temporal nature of the flood conditioning factors.
+Developed a novel deep learning technique to predict levels of flood extent in East Africa, namely a Multi-Input ConvLSTM. The results of this project demonstrated the effectiveness of this specifc technique to model the spatio-temporal nature of the floodding.
 <br><br>
 This project was initally my MSc disseratation (here) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 (paper,presetation, slides). 
 
 ### 1. Flood Extent Prediction
+Flood  extent  prediction  is  the  task  of  predicting  the  level  of  inundation  for  a specific  location  based  on  a  set  of  flood  conditioning  factors.  In  flood  extent prediction, the goal is to determine where flooding is going to happen and to what  extent. 
 
-The prediction of flood extent and location is a task of trying to predict the level of inundation $y$, where $0 \le y \le 1$, at time $t$ based on $M$ features for the previous $k$ points in time. In this problem, the level of inundation is the fraction (i.e. value in of a 1km sq polygon that is covered in flood water at time $t$ and each feature $m$, is a sequence of $k$ timesteps (e.g. daily total precipitation). It is these $M$ sequences that are to be utilised to predict flood extent. This study will focus on investigating various deep learning techniques to determine the best method of combining these sequences. 
-
-Figure 1.1 demonstrates the modelling process for this problem, where $k-1$ timesteps are considered for each sequence of features. For example, one measurement could be the total precipitation level of a location at timestep $t-k$ with the final timestep at $t-1$. This example would then predict the flo
+The flood extent prediction problem is a task of trying to predict the level of inundation $y$, where <img src="https://latex.codecogs.com/gif.latex?0 \le y \le 1" />, at time $t$ based on $M$ features for the previous $k$ points in time. In this problem, the level of inundation is the fraction (i.e. value in of a 1km sq polygon that is covered in flood water at time $t$ and each feature $m$, is a sequence of $k$ timesteps (e.g. daily total precipitation). It is these $M$ sequences that are to be utilised to predict flood extent. This study will focus on investigating various deep learning techniques to determine the best method of combining these sequences. 
 
 <img src="images/ICPR-2c.png?raw=true"/>
+
+The figure demonstrates the modelling process for this problem, where $k-1$ timesteps are considered for each sequence of features. For example, one measurement could be the total precipitation level of a location at timestep $t-k$ with the final timestep at $t-1$. This example would then predict the flo
+
 
 ### 2. Modelling
 
