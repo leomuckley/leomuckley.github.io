@@ -5,6 +5,9 @@ Developed a novel deep learning technique to predict levels of flood extent in E
 <br><br>
 This project was initally my MSc disseratation (here) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 (paper,presetation, slides). 
 
+URL: [paper](/pdfs/Flood_Extent_Prediction.pdf).
+
+
 ### 1. Flood Extent Prediction
 Flood  extent  prediction  is  the  task  of  predicting  the  level  of  inundation  for  a specific  location  based  on  a  set  of  flood  conditioning  factors.  In  flood  extent prediction, the goal is to determine where flooding is going to happen and to what  extent. Therefore, the flood extent prediction problem is a task of trying to predict the level of inundation *y* at time *t* based on some flood conditiong factors for the previous *k* points in time. 
 <br>
