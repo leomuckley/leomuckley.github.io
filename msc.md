@@ -17,8 +17,13 @@ The figure illustrates the modelling process for this problem, where *k* timeste
 
 ### 2. Modelling
 
-Multi-Input ConvLSTMis now proposed to effectively model both the tem-poral and spatial dependencies in the data for the purpose of flood extent predic-tion1. This novel approach solves some of the issues involving modelling extremeweather events using satellite imagery, such as: the ability to model sequentialproblems  with  a  mixture  of  data  types  without  redundant  information  beingincluded  in  the  modelling;  the  ability  to  exploit  local  spatial  dependencies  inthe absence of large high-dimensional training sets. Figure 1 outlines the flow ofoperations for the Multi-Input ConvLSTM. This architecture is also divided intotwo components: (1) for modelling the temporal features, the ConvLSTM model will be utilised; (2) for modelling the constant features a feed-forward network(MLP) will be used. These two components will be combined at a subsequentlayer for before being propagated to the output layer.
-
+A novel technique, namely a Multi-Input ConvLSTM, was proposed to effectively model both the temporal and spatial dependencies in the data for the purpose of flood extent prediction. This approach solves some of the issues involving modelling extreme weather events using satellite imagery, such as the ability to model sequential problems using sateliette imagery with varying repetition rates, and thus varying timesteps;  the  ability  to  exploit  local  spatial  dependencies  features in the absence of large training sets, with and without flooding. 
+<br><br>
+The following illustration outlines the flow of operations for the Multi-Input ConvLSTM: 
+1. First, the subset of features that have a higher repetition rate and are more temporal by nature (e.g. precipitation; soil moisture etc.) are propogated through a combination of ConvLSTM and LSTM layers 
+2. Second, the subset of features that have a lower repetition rate and are less temporal by nature (e.g. elevation; distance to river etc.) are propogated through some dense layers
+3. The ouptut of these separate networks are then concatenated at a subsequent layer, which is then used in a linear model to output the level of flood extent
+<br>
 <img src="images/model.gif?raw=true"/>
 
 ### 3. Results
