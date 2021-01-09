@@ -3,7 +3,7 @@
 **Overview:** 
 Developed a novel deep learning technique to predict levels of flood extent in East Africa, namely a Multi-Input ConvLSTM. The results of this project demonstrated the effectiveness of this specifc technique to model the spatio-temporal nature of the flooding.
 <br><br>
-This project was initally my MSc disseratation (here) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 ([paper](/pdf/Flood_Extent_Prediction.pdf), [slides](/pdf/ICPR_Slides.pdf)). 
+This project was initally my MSc dissertation ([link](/pdf/MSc_Dissertation.pdf)) and was subsequently published at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 ([paper](/pdf/Flood_Extent_Prediction.pdf), [slides](/pdf/ICPR_Slides.pdf)). 
 
 
 ### 1. Flood Extent Prediction
@@ -23,11 +23,15 @@ The following illustration outlines the flow of operations for the Multi-Input C
 1. First, the subset of features that have a higher repetition rate and are more temporal by nature (e.g. precipitation; soil moisture etc.) are propogated through a combination of ConvLSTM and LSTM layers 
 2. Second, the subset of features that have a lower repetition rate and are less temporal by nature (e.g. elevation; distance to river etc.) are propogated through some dense layers
 3. The ouptut of these separate networks are then concatenated at a subsequent layer, which is then used in a linear model to output the level of flood extent
-<br>
 <img src="images/model.gif?raw=true"/>
 
-### 3. Results
+### 3. Evaluation
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+The data sets used for training and testing were carefully selected to  test  if  the  models  could  generalise  to various flood events. To test this the following experiments were conducted:
+1.  Malawi used for training and testing
+2.  Mozambique used for training and Malawi used for testing
+3.  Mozambique used for training and Kenya used for testing 
+ 
+First, the models were trained and tested on homogeneous data to better understand the ability  of  the  models  to  perform  on  data  of  a  similar  nature. Second and third,  the  models  were  trained  and  tested  on  heterogeneous  data,  which was  comprised  of  two  different  datasets. Therefore,this would test the ability of the models to generalise well to other flood events. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The results of the experiments show that converting the original flood extent prediction problem into a temporal problem outperforms the current state-of-the-art LGBM model in generalising to various types of flood events. Furthermore, we compare the sub-components of the Multi-Input ConvLSTM model to demonstrate their efficacy separately. These comparisons show that the ConvLSTM is particularly effective at when the training and test sets are similar while the Multi-Input architecture was particularly effective when the training and test sets. Furthermore, the Multi-Input ConvLSTM model showed to be effective in either scenario and for the various types of floods.
