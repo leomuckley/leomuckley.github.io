@@ -48,7 +48,7 @@ Python implemenatation
 ---
 [Learn With Other Kaggle Users](http://example.com/)
 <br>
-Classify forest types based on information about the area
+Classify forest types based on geographical information
 <br>
 Kaggle competition; top 4% finish
 <br>
