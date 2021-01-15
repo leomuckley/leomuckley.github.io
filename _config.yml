@@ -2,13 +2,16 @@ title: Leo Muckley # your name (or website title) here
 logo: "/images/headshot-circle.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
-  Data Scientist 
+  Cork, Ireland :ireland: | Data Scientist 
   <br><br>
   MSc Data Science | University of Edinburgh
   <br><br>
+  <br><br>
+  <a href="https://www.linkedin.com/in/leo-muckley/">View My Resume</a> 
+  <br><br>
   <a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a> 
   <br><br>
-  <a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a> 
+  <a href="https://www.kaggle.com/leomuckley/"> :trophy: View My Kaggle Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-186245913-1 # Google Analytics tracking ID
