@@ -46,7 +46,7 @@ Python implemenatation
 <img src="images/mlmi_example.png?raw=true"/>
 
 ---
-[Learn With Other Kaggle Users](http://example.com/)
+[Learn With Other Kaggle Users](/forrest-kaggle.md)
 <br>
 Classify forest types based on geographical information
 <br>
