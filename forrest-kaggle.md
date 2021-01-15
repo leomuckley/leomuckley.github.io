@@ -29,7 +29,7 @@ Conisdering the ordinal form of the target feature, a regression approach with o
 In this procedure, the first-level regressors are fit to the same training set that is used prepare the inputs for the second-level regressor, which may lead to overfitting. Therefore, the concept of out-of-fold predictions: the dataset is split into k folds, and in k successive rounds, k-1 folds are used to fit the first level regressor. In each round, the first-level regressors are then applied to the remaining 1 subset that was not used for model fitting in each iteration. The resulting predictions are then stacked and provided -- as input data -- to the second-level regressor. After the training of each StackingCVRegressor, the first-level regressors are fit to the entire dataset for optimal predicitons.
 <br>
 
-```pyhton
+``` python
 
 def add_features(X_):
     X = X_.copy()
