@@ -13,6 +13,32 @@ The competition datasets comes from a study conducted in four wilderness areas w
 
 The data is in raw form and contains categorical data such as wilderness areas and soil type.
 
+The study area includes four wilderness areas located in the Roosevelt National Forest of northern Colorado. Each observation is a 30m x 30m patch. You are asked to predict an integer classification for the forest cover type. The seven types are:
+
+1 - Spruce/Fir
+2 - Lodgepole Pine
+3 - Ponderosa Pine
+4 - Cottonwood/Willow
+5 - Aspen
+6 - Douglas-fir
+7 - Krummholz
+
+The training set (15120 observations) contains both features and the Cover_Type. The test set contains only the features. You must predict the Cover_Type for every row in the test set (565892 observations).
+
+Elevation - Elevation in meters
+Aspect - Aspect in degrees azimuth
+Slope - Slope in degrees
+Horizontal_Distance_To_Hydrology - Horz Dist to nearest surface water features
+Vertical_Distance_To_Hydrology - Vert Dist to nearest surface water features
+Horizontal_Distance_To_Roadways - Horz Dist to nearest roadway
+Hillshade_9am (0 to 255 index) - Hillshade index at 9am, summer solstice
+Hillshade_Noon (0 to 255 index) - Hillshade index at noon, summer solstice
+Hillshade_3pm (0 to 255 index) - Hillshade index at 3pm, summer solstice
+Horizontal_Distance_To_Fire_Points - Horz Dist to nearest wildfire ignition points
+Wilderness_Area (4 binary columns, 0 = absence or 1 = presence) - Wilderness area designation
+Soil_Type (40 binary columns, 0 = absence or 1 = presence) - Soil Type designation
+Cover_Type (7 types, integers 1 to 7) - Forest Cover Type designation
+
 Submissions are evaluated on categorization accuracy.
 
 That's just what fraction of predictions did you get right. You will want to use Classifier models like RandomForestClassifier rather than Regression models. With classifier models, the predict method will tell you which category is most likely.
@@ -22,12 +48,9 @@ That's just what fraction of predictions did you get right. You will want to use
 
 ### 2. Modelling
 
-My solution involved using stacking, an ensemble learning technique, to combine multiple regression models via a meta-regressor (i.e. a linear model). Each prediction is then adjusted to the ordinal form by using a an optimiser and a thresholding technqiue. The predictions of each stack is then considered in a majority voting rule, for evaluation using the weighted kappa metric. 
-Conisdering the ordinal form of the target feature, a regression approach with optimised thresholds were implemented.
-<br>
-<img src="images/ds-bowl19.png?raw=true"/>
-In this procedure, the first-level regressors are fit to the same training set that is used prepare the inputs for the second-level regressor, which may lead to overfitting. Therefore, the concept of out-of-fold predictions: the dataset is split into k folds, and in k successive rounds, k-1 folds are used to fit the first level regressor. In each round, the first-level regressors are then applied to the remaining 1 subset that was not used for model fitting in each iteration. The resulting predictions are then stacked and provided -- as input data -- to the second-level regressor. After the training of each StackingCVRegressor, the first-level regressors are fit to the entire dataset for optimal predicitons.
-<br>
+My solution involved using stacking, an ensemble learning technique, to combine multiple classification models via a meta-classifier. 
+
+Before modelling, some feature engineering was possible resulting in nine new features:
 
 ``` python
 
@@ -81,6 +104,30 @@ def add_features(X_):
 
 ```
 
+The next step is to choose features based on their statistical dependence with the target variable. To incorporate both linear and non-linear dependencies, a feature selection technique based on mutual information was used:
+
+``` python
+
+# Feature selection
+selector = SelectKBest(mutual_info_classif, k=20)
+X_new = selector.fit_transform(X_train, y_train)
+
+# Get back the features we've kept, zero out all other features
+selected_features = pd.DataFrame(selector.inverse_transform(X_new), 
+                                 index=X_train.index,
+                                 columns=X_train.columns
+                                 )
+
+# Dropped columns have values of all 0s, so var is 0, drop them
+selected_columns = selected_features.columns[selected_features.var() != 0]
+
+# Get the valid dataset with the selected features.
+X_train = X_train[selected_columns]
+X_val = X_val[selected_columns]
+
+```
+
+
 ### 3. Results
 
-The resulting model achieved an overall result in the top 7% on the final leaderboard.
+The resulting model achieved an overall result in the top 4% on the final leaderboard.
