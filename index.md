@@ -45,7 +45,7 @@ Classify forest types based on geographical information
 <br>
 Kaggle competition; top 4% finish
 <br>
-<img src="images/forrest.jpg?raw=true"/> # 
+<img src="images/forrest.jpg?raw=true"/>
 
 ---
 
