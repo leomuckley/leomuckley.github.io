@@ -2,8 +2,8 @@
 
 [Multi-Input ConvLSTM](/msc)
 <br>
-Predict flood extent utilising geographical features in East Africa
-<br>
+**Goal**: Predict flood extent utilising geographical features in East Africa
+<br><br>
 MSc thesis which was subsequently submitted to the *25th International Conference on Pattern Recognition*
 <br>
 <img src="images/model_cropped.png?raw=true"/>
