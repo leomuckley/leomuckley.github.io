@@ -4,7 +4,7 @@
 <br>
 Predict flood extent utilising geographical features in East Africa
 <br>
-MSc thesis; Published at ICPR 2020
+MSc thesis which was subsequently submitted to the *25th International Conference on Pattern Recognition*
 <br>
 <img src="images/model_cropped.png?raw=true"/>
 
