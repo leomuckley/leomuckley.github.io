@@ -1,7 +1,7 @@
 ### Projects 
 
 [Multi-Input ConvLSTM](/msc)
-<br>
+<br><br>
 **Goal**: Predict flood extent utilising geographical features in East Africa
 <br><br>
 MSc thesis which was subsequently submitted to the *25th International Conference on Pattern Recognition*
