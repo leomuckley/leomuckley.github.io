@@ -36,10 +36,30 @@ The data sets used for training and testing were carefully selected to  test  if
 First, the models were trained and tested on homogeneous data to better understand the ability  of  the  models  to  perform  on  data  of  a  similar  nature. Second and third,  the  models  were  trained  and  tested  on  heterogeneous  data,  which was  comprised  of  two  different  datasets. Therefore,this would test the ability of the models to generalise well to other flood events. 
 
 #### Homogeneous data
+1. Malawi used for both training and testing
 
 Model | RMSE
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+LSTM | 0.0525 +/- 0.0004
+LSTM-Autoencoder | 0.0542 +/- 0.01
+Multi-Input LSTM | *0.0532 +/- 0.001*
+ConvLSTM | 0.0519 +/- 0.0002
+Multi-Input ConvLSTM | 0.0572 +/- 0.001
+LGBM | 0.1021 +/- 0.0001
+
+
+#### Heterogeneous data
+1. Mozambique used for training and Malawi used for testing
+2. Mozambique used for training and Kenya used for testing
+
+Model | Malawi | Kenya
+------------ | ------------- | --------------
+LSTM | 0.1471 +/- 0.03 | 0.2270 +/- 0.01
+LSTM-Autoencoder | 0.1117 +/- 0.02 | 0.2333 +/- 0.01 
+Multi-Input LSTM | 0.0803 +/- 0.01 | 0.2120 +/- 0.01
+ConvLSTM | *0.1350 +/- 0.02* | *0.2180 +/- 0.01*
+Multi-Input ConvLSTM | 0.0890 +/- 0.01 | 0.2169 +/- 0.02
+LGBM | 0.2815 +/- 0.002 | 0.2554 +/- 0.01
+
 
 The results of the experiments show that converting the original flood extent prediction problem into a temporal problem outperforms the current state-of-the-art LGBM model in generalising to various types of flood events. Furthermore, we compare the sub-components of the Multi-Input ConvLSTM model to demonstrate their efficacy separately. These comparisons show that the ConvLSTM is particularly effective at when the training and test sets are similar while the Multi-Input architecture was particularly effective when the training and test sets. Furthermore, the Multi-Input ConvLSTM model showed to be effective in either scenario and for the various types of floods.
