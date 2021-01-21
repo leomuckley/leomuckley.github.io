@@ -28,11 +28,18 @@ The following illustration outlines the flow of operations for the Multi-Input C
 
 ### 3. Evaluation
 
-The data sets used for training and testing were carefully selected to  test  if  the  models  could  generalise  to various flood events. To test this the following experiments were conducted:
+The data sets used for training and testing were carefully selected to  test  if  the  models  could  generalise  to various flood events. To test this, the following experiments were conducted:
 1.  Malawi used for training and testing
 2.  Mozambique used for training and Malawi used for testing
 3.  Mozambique used for training and Kenya used for testing 
  
 First, the models were trained and tested on homogeneous data to better understand the ability  of  the  models  to  perform  on  data  of  a  similar  nature. Second and third,  the  models  were  trained  and  tested  on  heterogeneous  data,  which was  comprised  of  two  different  datasets. Therefore,this would test the ability of the models to generalise well to other flood events. 
+
+#### Homogeneous data
+
+Model | RMSE
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 The results of the experiments show that converting the original flood extent prediction problem into a temporal problem outperforms the current state-of-the-art LGBM model in generalising to various types of flood events. Furthermore, we compare the sub-components of the Multi-Input ConvLSTM model to demonstrate their efficacy separately. These comparisons show that the ConvLSTM is particularly effective at when the training and test sets are similar while the Multi-Input architecture was particularly effective when the training and test sets. Furthermore, the Multi-Input ConvLSTM model showed to be effective in either scenario and for the various types of floods.
