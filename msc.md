@@ -20,6 +20,8 @@ The figure illustrates the modelling process for this problem, where *k* timeste
 
 A novel technique, namely a Multi-Input ConvLSTM, was proposed to effectively model both the temporal and spatial dependencies in the data for the purpose of flood extent prediction. This approach solves some of the issues involving modelling extreme weather events using satellite imagery, such as the ability to model sequential problems using sateliette imagery with varying repetition rates, and thus varying timesteps;  the  ability  to  exploit  local  spatial  dependencies  features in the absence of large training sets, with and without flooding. 
 <br><br>
+The proposed solution adopts a multi-input architetcture where the model splits the feature set based on how *temporal* a feature is and then propogates the input through the newtork seperately. For instance, highly temporal features, such as precipitation, is propagated through ConvLSTM and LSTM layers and features that are more constant by nature, such as land elevation, are propagated through dense layers.
+<br><br>
 The following illustration outlines the flow of operations for the Multi-Input ConvLSTM: 
 1. First, the subset of features that have a higher repetition rate and are more temporal by nature (e.g. precipitation; soil moisture etc.) are propogated through a combination of ConvLSTM and LSTM layers 
 2. Second, the subset of features that have a lower repetition rate and are less temporal by nature (e.g. elevation; distance to river etc.) are propogated through some dense layers
