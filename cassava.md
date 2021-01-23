@@ -1,9 +1,10 @@
 ## Cassava Leaf Disease Classification
 
 **Overview:** 
-Developed a method utilising EfficientNet[] model to accurately classify images of Cassava plants to distinguish between healthy and diseased crops. 
+Developed a method utilising [EfficientNet](https://arxiv.org/abs/1905.11946) model to accurately classify images of Cassava plants to distinguish between healthy and diseased crops. 
 <br><br>
-
+Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/cassava-leaf-disease-classification).
+<br><br>
 ### 1. Problem
 
 The Cassava leaf disease classification competition presents 21,367 labeled images, where the majority of the images were crowdsourced from farmers. These images were subsequently annotated by experts at the National Crops Resources Research Institute (NaCRRI) in collaboration with the AI lab at Makerere University, Kampala. As an added challenge, effective solutions for farmers must perform well under significant constraints, since African farmers may only have access to mobile-quality cameras with low-bandwidth. Therefore a successful method will allow farmers to be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.
@@ -22,7 +23,7 @@ Before training the model, we establish some data augmentation techniques to be 
 * Horizontal flip; flip the image horizontally
 * Vertical flip; flip the image vertically
 
-The model chosen was an adaptation of an EfficientNet [1][https://arxiv.org/abs/1905.11946]. A pre-trained variant of the available EfficientNet models was used, namely the B4 variant using *image-net* weights. The image size utilised is *380x380* as this is the recommended size for the B4 variant . Subsequent layers were then appended to the (frozen) pre-trained layers for the model to learn additional features specific to the leaf disease problem.
+The model chosen was an adaptation of an [EfficientNet](https://arxiv.org/abs/1905.11946). A pre-trained variant of the available EfficientNet models was used, namely the B4 variant using *image-net* weights. The image size utilised is *380x380* as this is the recommended size for the B4 variant . Subsequent layers were then appended to the (frozen) pre-trained layers for the model to learn additional features specific to the leaf disease problem.
 
 
 
