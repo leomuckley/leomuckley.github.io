@@ -3,7 +3,10 @@
 **Overview:** 
 Developed a multi-stack model with threshold optimiser to effectivly predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood education.
 <br><br>
-This project was based on a Kaggle competition (here) where the goal was to uncover new insights in early childhood education and how media can support learning outcomes. This was also the fifth annual Data Science Bowl (2019), presented by Booz Allen Hamilton and Kaggle.
+This project was based on a Kaggle competition [(Link)](https://www.kaggle.com/c/data-science-bowl-2019) where the goal was to uncover new insights in early childhood education and how media can support learning outcomes. This was also the fifth annual Data Science Bowl (2019), presented by Booz Allen Hamilton and Kaggle.
+<br><br>
+Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/DataScienceBowl-2019).
+<br><br>
 
 ### 1. The Problem
 
@@ -35,4 +38,4 @@ In this procedure, the first-level regressors are fit to the same training set t
 
 ### 3. Results
 
-The resulting model achieved an overall result in the top 7% on the final leaderboard.
+The resulting model achieved a quadratic weighted kappa of 0.539, with 1st place achieving 0.568. My final solution finished in the top 7% on the leaderboard.
