@@ -8,7 +8,7 @@ This project was initally my MSc dissertation ([link](/pdf/MSc_Dissertation.pdf)
 Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/malawi-flood-prediction).
 
 ### 1. Flood Extent Prediction
-Flood  extent  prediction  is  the  task  of  predicting  the  level  of  inundation  for  a specific  location  based  on  a  set  of  flood  conditioning  factors.  In  flood  extent prediction, the goal is to determine where flooding is going to happen and to what  extent. Therefore, the flood extent prediction problem is a task of trying to predict the level of inundation *y* at time *t* based on some flood conditiong factors for the previous *k* points in time. 
+Flood  extent  prediction  is  the  task  of  predicting  the  level  of  inundation  for  a specific  location  based  on  a  set  of  flood  conditioning  factors.  In  flood  extent prediction, the goal is to determine where flooding is going to happen and to what  extent. Therefore, the flood extent prediction problem is a task of trying to predict the level of inundation *y* at time *t* based on *m* flood conditiong factors for the previous *k* points in time. 
 <br>
 <img src="images/ICPR-2c.png?raw=true"/>
 <br>
