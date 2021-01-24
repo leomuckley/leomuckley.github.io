@@ -1,7 +1,7 @@
 ## Cassava Leaf Disease Classification
 
 **Overview:** 
-Developed a method utilising [EfficientNet](https://arxiv.org/abs/1905.11946) model to accurately classify images of Cassava plants to distinguish between healthy and diseased crops. 
+Developed a method utilising an [EfficientNet](https://arxiv.org/abs/1905.11946) model to accurately classify images of Cassava plants and to distinguish between healthy and diseased crops. 
 <br><br>
 Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/cassava-leaf-disease-classification).
 <br><br>
@@ -10,12 +10,13 @@ Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/
 The Cassava leaf disease classification competition presents 21,367 labeled images, where the majority of the images were crowdsourced from farmers. These images were subsequently annotated by experts at the National Crops Resources Research Institute (NaCRRI) in collaboration with the AI lab at Makerere University, Kampala. As an added challenge, effective solutions for farmers must perform well under significant constraints, since African farmers may only have access to mobile-quality cameras with low-bandwidth. Therefore a successful method will allow farmers to be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.
 
 The goal of this competition is to classify each cassava image into four disease categories or a fifth category indicating a healthy leaf. The following image contains examples of the various diseased/healthy plants:
+<br><br>
 <img src="images/cassava.png?raw=true"/>
 
 
 ### 2. Modelling
 
-Before training the model, we establish some data augmentation techniques to be utilised. The specific augmentation techniques are carefully chosen so the image adds too much noise or distorts the image beyond recognition. Each of the following techniques are randomly selected within the pre-defined limits:
+Before training the model, some data augmentation techniques were utilised. The specific augmentation techniques were carefully chosen so the augmented image does not contain too much noise or distorts the image beyond recognition. Furthermore, each of the following techniques are randomly selected within some pre-defined limits:
 * Rotation range; rotate the input image within 45 degrees
 * Width shift range; specifies the upper bound of the fraction of the total width by which the image is to be randomly shifted, either towards the left or right
 * Height shift range; specifies the upper bound of the fraction of the total height by which the image is to be randomly shifted, either up or down
