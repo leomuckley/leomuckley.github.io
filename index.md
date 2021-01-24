@@ -15,7 +15,7 @@ MSc thesis which was subsequently submitted to the *25th International Conferenc
 **Goal**: Classify images of Cassava plants to distinguish between healthy and diseased crops
 <br><br>
 Kaggle Competition; *in progress*
-<br>
+<br><br>
 <img src="images/cassava.png?raw=true"/>
 
 ---
@@ -44,7 +44,7 @@ Python implemenatation of the paper titled *Approximating mutual information by 
 **Goal**: Classify forest types based on geographical information
 <br><br>
 Kaggle competition; top 4% finish
-<br>
+<br><br>
 <img src="images/forrest.jpg?raw=true"/>
 
 ---
