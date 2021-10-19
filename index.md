@@ -4,7 +4,7 @@
 <br><br>
 **Goal**: Predict flood extent utilising geographical features in East Africa
 <br><br>
-MSc thesis which was subsequently submitted to the *25th International Conference on Pattern Recognition*
+MSc thesis which was subsequently published at the *25th International Conference on Pattern Recognition* [Link to Paper] 
 <br>
 <img src="images/model_cropped.png?raw=true"/>
 
@@ -14,7 +14,7 @@ MSc thesis which was subsequently submitted to the *25th International Conferenc
 <br><br>
 **Goal**: Classify images of Cassava plants to distinguish between healthy and diseased crops
 <br><br>
-Kaggle Competition; *in progress*
+Kaggle Competition
 <br><br>
 <img src="images/cassava.png?raw=true"/>
 
@@ -25,7 +25,7 @@ Kaggle Competition; *in progress*
 **Goal**: Predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood
 education
 <br><br>
-Kaggle competition; top 7% finish
+Kaggle competition
 <br><br>
 <img src="images/ds-bowl19.png?raw=true"/>
 
@@ -43,7 +43,7 @@ Python implemenatation of the paper titled *Approximating mutual information by 
 <br><br>
 **Goal**: Classify forest types based on geographical information
 <br><br>
-Kaggle competition; top 4% finish
+Kaggle competition
 <br><br>
 <img src="images/forrest.jpg?raw=true"/>
 
