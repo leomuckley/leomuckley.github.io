@@ -4,7 +4,7 @@
 <br><br>
 **Goal**: Predict flood extent utilising geographical features in East Africa
 <br><br>
-MSc thesis which was subsequently published at the *25th International Conference on Pattern Recognition* [Link to Paper](https://link.springer.com/chapter/10.1007/978-3-030-68780-9_8)
+MSc thesis which was subsequently published at the *25th International Conference on Pattern Recognition* ([Link to Paper](https://link.springer.com/chapter/10.1007/978-3-030-68780-9_8))
 <br>
 <img src="images/model_cropped.png?raw=true"/>
 
