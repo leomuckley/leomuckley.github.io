@@ -1,6 +1,6 @@
-### Projects 
+# Projects 
 
-[Multi-Input ConvLSTM](/msc)
+###Multi-Input ConvLSTM [GitHub](/msc)
 <br><br>
 **Goal**: Predict flood extent utilising geographical features in East Africa
 <br><br>
