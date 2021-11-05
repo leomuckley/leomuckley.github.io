@@ -1,7 +1,7 @@
 ## Data Science Bowl 2019
 
 **Overview:** 
-Developed a multi-stack model with threshold optimiser to effectivly predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood education.
+Developed a multi-stack model with threshold optimiser to effectively predict childhood learning outcomes by utilising data from a game-based learning tool in early childhood education.
 <br><br>
 This project was based on a Kaggle competition [(Link)](https://www.kaggle.com/c/data-science-bowl-2019) where the goal was to uncover new insights in early childhood education and how media can support learning outcomes. This was also the fifth annual Data Science Bowl (2019), presented by Booz Allen Hamilton and Kaggle.
 <br><br>
