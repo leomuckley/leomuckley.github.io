@@ -3,7 +3,7 @@
 **Overview:** 
 Developed a novel deep learning technique to predict levels of flood extent in East Africa, namely a Multi-Input ConvLSTM. The results of this project demonstrated the effectiveness of this specifc technique to model the spatio-temporal nature of flooding.
 <br><br>
-This project was initally my MSc dissertation ([link](/pdf/MSc_Dissertation.pdf)), while attending the University of Edinburgh, and my work was presented at the Machine Learning Advances Environmental Sciences workshop at ICPR 2020 ([slides](/pdf/ICPR_Slides.pdf)) and subsequently published in the Lecture Notes in Computer Science series ([paper](https://link.springer.com/chapter/10.1007/978-3-030-68780-9_8)).
+This project was initally my MSc dissertation ([link](/pdf/MSc_Dissertation.pdf)), while attending the University of Edinburgh, and my work was presented at the _Machine Learning Advances Environmental Sciences_ workshop at ICPR 2020 ([slides](/pdf/ICPR_Slides.pdf)) and subsequently published in the _Lecture Notes in Computer Science_ series ([paper](https://link.springer.com/chapter/10.1007/978-3-030-68780-9_8)).
 
 Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/malawi-flood-prediction).
 
