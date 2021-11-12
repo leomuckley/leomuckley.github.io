@@ -1,11 +1,11 @@
 ## Multi-Input ConvLSTM for Flood Extent Prediction
 
 **Overview:** 
-Developed a novel deep learning technique, namely a Multi-Input ConvLSTM, with the goal of predicting levels of flood extent in East Africa. The Multi-INput ConvLSTM architecture proved to be the effective at modelling the spatio-temporal nature of flooding.
+Developed a novel deep learning technique, namely a Multi-Input ConvLSTM, with the goal of predicting levels of flood extent in East Africa. The Multi-Input ConvLSTM architecture proved to be effective at modelling the spatio-temporal nature of flooding.
 <br><br>
-This project was initally my MSc dissertation ([link](/pdf/MSc_Dissertation.pdf)), while attending the University of Edinburgh, and my work was presented at the _Machine Learning Advances Environmental Sciences_ workshop at ICPR 2020 ([slides](/pdf/ICPR_Slides.pdf)) and subsequently published in the _Lecture Notes in Computer Science_ series ([paper](https://link.springer.com/chapter/10.1007/978-3-030-68780-9_8)).
+This project was initally my MSc dissertation [[link](/pdf/MSc_Dissertation.pdf)], while attending the University of Edinburgh, and my work was presented at the _Machine Learning Advances Environmental Sciences_ workshop at ICPR 2020 [[slides](/pdf/ICPR_Slides.pdf)] and subsequently published in the _Lecture Notes in Computer Science_ series [[paper](https://link.springer.com/chapter/10.1007/978-3-030-68780-9_8)].
 
-Link to the TensorFlow implementation on [GitHub](https://github.com/leomuckley/malawi-flood-prediction).
+Link to the TensorFlow implementation on [[GitHub](https://github.com/leomuckley/malawi-flood-prediction)].
 
 ### 1. Flood Extent Prediction
 Flood  extent  prediction  is  the  task  of  predicting  the  level  of  inundation  for  a specific  location  based  on  a  set  of  flood  conditioning  factors.  In  flood  extent prediction, the goal is to determine where flooding is going to happen and to what  extent. Therefore, the flood extent prediction problem is a task of trying to predict the level of inundation *y* at time *t* based on *m* flood conditiong factors for the previous *k* points in time. 
