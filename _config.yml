@@ -6,8 +6,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   MSc Data Science | University of Edinburgh
   <br><br>
-  <br><br>
-  <a href="/pdf/resume.pdf">View My Resume</a>
+  # <br><br>
+  # <a href="/pdf/resume.pdf">View My Resume</a>
   <br><br>
   <a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a> 
   <br><br>
