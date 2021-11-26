@@ -1,4 +1,4 @@
-<br><br>
+<br>
 ### [Multi-Input ConvLSTM for Flood Extent Prediction](/msc)
 **Goal**: Predict flood extent utilising geographical features in East Africa
 <br><br>
