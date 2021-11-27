@@ -9,8 +9,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <dl>
   <dt>Links</dt>
+  <br>
+  <dd><a href="https://github.com/leomuckley/">View My GitHub Profile</a></dd>
   <dd><a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a></dd>
-  <br><br>
   <dd><a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a></dd>
   </dl>
   
