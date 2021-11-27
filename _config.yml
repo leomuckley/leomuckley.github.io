@@ -2,20 +2,24 @@ title: leomuckley.com # your name (or website title) here
 logo: "/images/headshot-circle.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
-  <ul>
-  <dt>Bio</dt>
-  <ul>Cork, Ireland</ul>
-  <ul>Data Scientist | AI Researcher</ul>
-  <ul>MSc Data Science</ul> 
-  <ul>University of Edinburgh</ul>
-  </ul>
+  <h1>Bio</h1>
+  <br>
+  Cork, Ireland
+  <br>
+  Data Scientist | AI Researcher
+  <br>
+  MSc Data Science
+  <br>
+  University of Edinburgh
+  
   <br><br>
-  <dl>
-  <dt>Profile Links</dt>
-  <dd><a href="https://github.com/leomuckley/">View My GitHub Profile</a></dd>
+  <h1>Profile Links</h1>
+  <br>
+  <a href="https://github.com/leomuckley/">View My GitHub Profile</a>
+  <br>
   <dd><a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a></dd>
+  <br>
   <dd><a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a></dd>
-  </dl>
   
   
 theme: jekyll-theme-minimal # Github pages theme
