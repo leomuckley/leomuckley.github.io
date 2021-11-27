@@ -12,7 +12,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <dd><a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a></dd>
   <br><br>
   <dd><a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a></dd>
-  </ul>
+  </dl>
   
   
 theme: jekyll-theme-minimal # Github pages theme
