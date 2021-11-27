@@ -2,12 +2,13 @@ title: leomuckley.com # your name (or website title) here
 logo: "/images/headshot-circle.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
-  <dl>
+  <ul>
   <dt>Bio</dt>
-  <dd>Cork, Ireland</dd>
-  <dd>Data Scientist | AI Researcher</dd>
-  <dd>MSc Data Science | University of Edinburgh</dd>
-  </dl>
+  <ul>Cork, Ireland</ul>
+  <ul>Data Scientist | AI Researcher</ul>
+  <ul>MSc Data Science</ul> 
+  <ul>University of Edinburgh</ul>
+  </ul>
   <br><br>
   <dl>
   <dt>Profile Links</dt>
