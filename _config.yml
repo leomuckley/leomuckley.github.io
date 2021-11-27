@@ -7,9 +7,12 @@ description: > # your text below (remove <br> elements if you don't need line br
   MSc Data Science | University of Edinburgh
   <br><br>
   <br><br>
-  <a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a> 
+  <ul>
+  <li><a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a></li>
   <br><br>
-  <a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a> 
+  <li><a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a> </li>
+</ul>
+  
   
 theme: jekyll-theme-minimal # Github pages theme
 google_analytics: UA-186245913-1 # Google Analytics tracking ID
