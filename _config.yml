@@ -7,11 +7,12 @@ description: > # your text below (remove <br> elements if you don't need line br
   MSc Data Science | University of Edinburgh
   <br><br>
   <br><br>
-  <ul>
-  <li><a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a></li>
+  <dl>
+  <dt>Links</dt>
+  <dd><a href="https://www.linkedin.com/in/leo-muckley/">View My LinkedIn Profile</a></dd>
   <br><br>
-  <li><a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a> </li>
-</ul>
+  <dd><a href="https://www.kaggle.com/leomuckley/">View My Kaggle Profile</a></dd>
+  </ul>
   
   
 theme: jekyll-theme-minimal # Github pages theme
