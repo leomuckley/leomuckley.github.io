@@ -3,7 +3,6 @@ logo: "/images/headshot-circle.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
   <h2>Bio</h2>
-  <br>
   Cork, Ireland
   <br>
   Data Scientist | AI Researcher
@@ -11,9 +10,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   MSc Data Science
   <br>
   University of Edinburgh
-  <br>
-  Travel, hiking & photography 
-  
+    
   <br><br>
   <h2>Profile Links</h2>
   <a href="https://github.com/leomuckley/">View My GitHub Profile</a>
