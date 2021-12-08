@@ -1,26 +1,19 @@
 
-## Introduction to Apache Spark and SparkSQL
-
-**Overview:** 
-Python implementation of the paper title *Approximating Mutual Information by Maximum Likelihood Density Ratio Estimation* [].
-<br><br>
+## Introduction to Apache Spark and SparkSQL using Databricks Community Edition
 
 
-When we start talking about big data, you'll find that it's often characterized by what people call the five v's of big data. Those v's are volume, velocity, variety, veracity and value.
+When we start discussing big data, we often find ourselves talking about the five v's of big data. Those v's are **volume**, **velocity**, **variety**, **veracity** and **value**.
+<br>
+- **Volume**: consider the massive amounts of data that's being generated every second of every day.
 
-When we talk about volume, we're talking about the massive amounts of data that's being generated every second of every day.
+- **Velocity**: the frequency at which new data is generated and the speed at which it moves around.
 
-When we refer to velocity, we're referring to the speed at which new data is generated and the speed at which data moves around.
+- **Variety**: relates to the different types and the different sources of data. 
 
-The next v is variety, and it refers to having different types and sources of data. 
+- **Veracity**: refers to the quality an accuracy of data.
 
-The next v, we want to talk about is veracity, which refers to the quality an accuracy of data.
+- **Value**: actionable insights which can be made visible to a wider audience
 
-Scalability - working with spreadhseets, long processing time
-
-Working with multiple data sources - mixture of csv/excel, BI platforms, DBMS or SQL, etc.
-
-Extracting value from big data can be really complicated and it needs to be transformed into shareable, actionable insights and made visible to the larger organization.
 
 
 Definitely, data analyst sometimes suffer from a lack of proper tools, or working with multiple data sources in a disconnected system. And finding that maybe there isn't a single source of truth for the company. So what can we do to make these struggles better? Data teams need a well-designed data infrastructure so that it's clear where they can go to access information. Universal tools that work with multiple different file formats and with different file sources. A single source of truth that they can trust for reliable information. And to work on a unified data team, where we're sure that all of the parts of the team are working with the same data.
@@ -30,6 +23,11 @@ Some data storage solutions might look like multiple different databases, for a 
 But I'll say now that data lakes are popular because they can store unstructured and semi-structured and structured data altogether, and it gives that single source of truth that we've been talking about.
 
 In order to enable big data workloads, we'll need to choose tools that are designed to work in a system like this.
+
+Working with multiple data sources - mixture of csv/excel, BI platforms, DBMS or SQL, etc.
+
+Extracting **value** from big data can be really complicated and it needs to be transformed into shareable, actionable insights and made visible to the larger organization.
+Scalability - working with spreadhseets, long processing time
 
 
 ### 1. Spark
