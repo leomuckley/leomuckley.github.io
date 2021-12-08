@@ -1,7 +1,6 @@
 
 ## Introduction to Apache Spark and SparkSQL 
-<br>
-#### Quickstart with Databricks Community Edition
+#### Getting started with Databricks Community Edition
 
 
 When we start discussing big data, we often find ourselves talking about the five v's of big data. Those v's are **volume**, **velocity**, **variety**, **veracity** and **value**.
