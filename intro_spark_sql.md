@@ -1,6 +1,6 @@
 
 ## Introduction to Apache Spark and SparkSQL 
-#### Getting started with Databricks Community Edition
+### 1. Introduction
 
 
 When we start discussing big data, we often find ourselves talking about the five v's of big data. Those v's are **volume**, **velocity**, **variety**, **veracity** and **value**.
@@ -23,7 +23,7 @@ However, in order to enable big data workloads to work in systems like these, th
 
 
 
-### 1. Spark
+### 2. Spark and SparkSQL
 
 ![Apache Spark](images/apache_spark_logo_icon_170561.png)
 
@@ -33,19 +33,13 @@ In a distributed computing edge and what's going to happen is you're going to fe
 
 Another benefit to working with spark is that you can connect to multiple data stores in the eye tools. So in terms of where we're going to get data from, we can start off using Spark. And from there we can pull in data from just regular cloud storage or we can pull in data from a traditional SQL database. Or we can pull in data from a data lake or in what we have here is a Delta Lake which will talk about later. 
 
-
-
-
-### 2. SparkSQL
-
-
 Spark SQL is built to work with Spark an is designed for structured data processing. It allows us to use basic SQL syntax to access Spark's unified analytics engine.
 
 So why use Spark SQL? Well, ease of use for one, it makes it really easy for SQL users to work with Spark. You can run exactly the same queries and commands you're used to, plus access some additional functionality all using a standard SQL syntax.
 
 Beyond that, we'll also see the benefits of Spark's super cool optimization engine. Each query you run is going to be passed through an optimization engine that is designed to give you the best possible performance. So it can adjust the order of the business logic you express or it can skip reading unnecessary data, and you can find the most cost efficient way to deliver your results.
 
-#### DataBricks
+### 4. Getting started with Databricks Community Edition
 
 First, we're going to get you signed up on Databricks Community Edition so you can start using Spark, power your queries. Databricks Community Edition is a free version of the Databricks platform. As I mentioned earlier, all of us work for Databricks, which is a unified platform for massive scale data engineering, collaborative data science, full cycle machine learning and business analytics.
 
