@@ -26,6 +26,16 @@ Kaggle competition
 <img src="images/ds-bowl19.png?raw=true"/>
 
 ---
+
+### [Introduction to Databricks](/into_spark_sql)
+**Article**: Quickstart introduction to Databricks Community Edition
+<br><br>
+Introduction to Spark, SQL and Data Analysis using Databricks 
+<br><br>
+<img src="images/databricks_logo_icon_169299.png?raw=true"/>
+
+---
+
 ### [Maximum Likelihood Mututal Information](/mlmi)
 **Goal**: Approximate Mutual Information by Maximum Likelihood Density Ratio Estimation
 <br><br>
