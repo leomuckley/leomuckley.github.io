@@ -34,16 +34,9 @@ Introduction to Spark, SQL and Data Analysis using Databricks
 <br><br>
 <img src="images/databricks_logo_icon_169299.png?raw=true"/>
 
----
-
-### [Maximum Likelihood Mututal Information](/mlmi)
-**Goal**: Approximate Mutual Information by Maximum Likelihood Density Ratio Estimation
-<br><br>
-Python implemenatation of the paper titled *Approximating mutual information by maximum likelihood density ratio estimation* by Suzuki et al.
-<br><br>
-<img src="images/mlmi_example.png?raw=true"/>
 
 ---
+
 ### [Learn With Other Kaggle Users](/forrest-kaggle.md)
 **Goal**: Classify forest types based on geographical information
 <br><br>
@@ -52,3 +45,10 @@ Kaggle competition
 <img src="images/forrest.jpg?raw=true"/>
 
 ---
+
+### [Maximum Likelihood Mututal Information](/mlmi)
+**Goal**: Approximate Mutual Information by Maximum Likelihood Density Ratio Estimation
+<br><br>
+Python implemenatation of the paper titled *Approximating mutual information by maximum likelihood density ratio estimation* by Suzuki et al.
+<br><br>
+<img src="images/mlmi_example.png?raw=true"/>
