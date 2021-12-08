@@ -24,7 +24,7 @@ However, in order to enable big data workloads to work in systems like these, th
 
 ### 1. Spark
 
-![Apache Spark](images/apache_spark_logo_icon_170561.svg)
+![Apache Spark](images/apache_spark_logo_icon_170561.png)
 
 Apache spark is an analytics engine designed to unify data teams and meet big data needs. Among the big data community, it is very well known and widely used for its speed is abuse in generality. That is its ability to seamlessly integrate data. Applications that can include SQL streaming or complex analytics.
 
