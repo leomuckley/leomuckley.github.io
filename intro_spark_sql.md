@@ -16,25 +16,17 @@ When we start discussing big data, we often find ourselves talking about the fiv
 
 
 
-Definitely, data analyst sometimes suffer from a lack of proper tools, or working with multiple data sources in a disconnected system. And finding that maybe there isn't a single source of truth for the company. So what can we do to make these struggles better? Data teams need a well-designed data infrastructure so that it's clear where they can go to access information. Universal tools that work with multiple different file formats and with different file sources. A single source of truth that they can trust for reliable information. And to work on a unified data team, where we're sure that all of the parts of the team are working with the same data.
+Often Data Scientists suffer from a lack of proper tools that will work with various data sources with multiple file formats. For instance, some data storage solutions may have multiple different databases, a solution could be more centralised like a data wareshoure or one solution could be a data lake which can store unstructured, semi-structured and structured data altogether allowing a unified team work on a single source of truth.
 
+However, in order to enable big data workloads to work in systems like these, the most appropriate tool for the task should be chosen. For Data Scientists, it is important to have a tool which can scale beyond spreadsheet workflows and that can handle working with multiple data sources, such as a mixture of csv/excel, BI platforms, DBMS or SQL, etc.
 
-Some data storage solutions might look like multiple different databases, for a particular business needs. For example, you might have one that is designated to sales data, and then another for operations data, and then finance data is stored in a database separate from those. Another choice might be a centralized data repository like a data warehouse. That's a little bit like the previous system, except it goes and brings all of those multiple different databases under one roof, so you're still working in a single system, but you still have all that same structure where everything is very much separated out. Then, recently, data lakes have become really popular for storage.
-But I'll say now that data lakes are popular because they can store unstructured and semi-structured and structured data altogether, and it gives that single source of truth that we've been talking about.
-
-In order to enable big data workloads, we'll need to choose tools that are designed to work in a system like this.
-
-Working with multiple data sources - mixture of csv/excel, BI platforms, DBMS or SQL, etc.
-
-Extracting **value** from big data can be really complicated and it needs to be transformed into shareable, actionable insights and made visible to the larger organization.
-Scalability - working with spreadhseets, long processing time
 
 
 ### 1. Spark
 
 ![Apache Spark](images/apache_spark_logo_icon_170561.svg)
 
-So what is Apache Spark? Apache spark is an analytics engine designed to unify data teams and meet big data needs. Among the big data community, it is very well known and widely used for its speed is abuse in generality. That is its ability to seamlessly integrate data. Applications that can include SQL streaming or complex analytics.
+Apache spark is an analytics engine designed to unify data teams and meet big data needs. Among the big data community, it is very well known and widely used for its speed is abuse in generality. That is its ability to seamlessly integrate data. Applications that can include SQL streaming or complex analytics.
 
 In a distributed computing edge and what's going to happen is you're going to feed in the workload. And then that work is going to be distributed across a cluster of machines. This means that you can distribute that large workload among a few different machines. An all of them can be working on the problem simultaneously.
 
