@@ -32,6 +32,8 @@ Scalability - working with spreadhseets, long processing time
 
 ### 1. Spark
 
+![Apache Spark](assets/images/apache_spark_logo_icon_170561.svg)
+
 So what is Apache Spark? Apache spark is an analytics engine designed to unify data teams and meet big data needs. Among the big data community, it is very well known and widely used for its speed is abuse in generality. That is its ability to seamlessly integrate data. Applications that can include SQL streaming or complex analytics.
 
 In a distributed computing edge and what's going to happen is you're going to feed in the workload. And then that work is going to be distributed across a cluster of machines. This means that you can distribute that large workload among a few different machines. An all of them can be working on the problem simultaneously.
