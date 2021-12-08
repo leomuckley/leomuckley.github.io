@@ -27,7 +27,7 @@ Kaggle competition
 
 ---
 
-### [Introduction to Databricks](/into_spark_sql)
+### [Introduction to Databricks](/intro_spark_sql)
 **Article**: Quickstart introduction to Databricks Community Edition
 <br><br>
 Introduction to Spark, SQL and Data Analysis using Databricks 
