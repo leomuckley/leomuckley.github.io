@@ -1,5 +1,5 @@
 
-## Introduction to Apache Spark and SparkSQL 
+## Introduction to Apache Spark and SparkSQL using DataBricks
 ### 1. Introduction
 
 
